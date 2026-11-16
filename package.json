@@ -1,0 +1,13 @@
+{
+  "name": "swiftlethub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SWIFTLETHUB — Premium SwiftletHub Knowledge Platform (Thai language)",
+  "scripts": {
+    "build": "node build.js",
+    "verify": "node scripts/verify.js",
+    "images": "powershell -ExecutionPolicy Bypass -File scripts/optimize-images.ps1",
+    "serve": "node scripts/serve.js 8080",
+    "start": "node scripts/serve.js 8080"
+  }
+}
